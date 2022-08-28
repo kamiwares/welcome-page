@@ -35,9 +35,6 @@ function movingSquare(){
     for(let i = 0; i<square.length; i++){
         let top = Math.floor(Math.random() * 100);
         let left = Math.floor(Math.random() * 100);
-        
-        console.log(top+' '+left)
-        console.log(square[i])
         square[i].style.top = top+'%';
         square[i].style.left = left+ '%';
     }
